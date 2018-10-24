@@ -1,0 +1,791 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"im",
+				"imageNotFound"
+			],
+			[
+				"Py",
+				"python"
+			],
+			[
+				"redis",
+				"redisClient"
+			],
+			[
+				"co",
+				"collaborations"
+			],
+			[
+				"redi",
+				"redisClient"
+			],
+			[
+				"so",
+				"socket"
+			],
+			[
+				"sock",
+				"socket"
+			],
+			[
+				"se",
+				"session"
+			],
+			[
+				"soc",
+				"socketId"
+			],
+			[
+				"s",
+				"socketId"
+			],
+			[
+				"session",
+				"sessionid"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"border",
+				"border-style"
+			],
+			[
+				"bor",
+				"border-width"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"u",
+				"url()"
+			],
+			[
+				"l",
+				"label\tTag"
+			],
+			[
+				"r",
+				"radio1"
+			],
+			[
+				"p",
+				"placeholder\tAttr"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"t",
+				"tbody\tTag"
+			],
+			[
+				"th",
+				"thead\tTag"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"e",
+				"em\tTag"
+			],
+			[
+				"o",
+				"ol\tTag"
+			],
+			[
+				"h",
+				"h1\tTag"
+			],
+			[
+				"game",
+				"GameTable"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"R",
+				"Rectangle"
+			],
+			[
+				"cou",
+				"count"
+			],
+			[
+				"b",
+				"buttonNumber"
+			],
+			[
+				"cout",
+				"count"
+			],
+			[
+				"i",
+				"item"
+			],
+			[
+				"cl",
+				"clicknumber"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"ve",
+				"ve"
+			],
+			[
+				"Tim",
+				"timeC"
+			],
+			[
+				"time",
+				"time1"
+			],
+			[
+				"en",
+				"endl"
+			],
+			[
+				"Fi",
+				"FizzBuzz"
+			],
+			[
+				"ma",
+				"main\tmain()"
+			],
+			[
+				"y",
+				"y"
+			],
+			[
+				"string",
+				"stringb"
+			],
+			[
+				"len",
+				"len-1-i"
+			],
+			[
+				"m",
+				"middle"
+			],
+			[
+				"size",
+				"size"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"tar",
+				"target_char"
+			],
+			[
+				"ch",
+				"character"
+			],
+			[
+				"c",
+				"cutoff"
+			],
+			[
+				"tu",
+				"turn"
+			],
+			[
+				"cut",
+				"cutoff_struct"
+			],
+			[
+				"ct",
+				"cutoff_const"
+			],
+			[
+				"su",
+				"sum_of_turnes"
+			],
+			[
+				"turn",
+				"turn_count"
+			],
+			[
+				"sum",
+				"sum_in_one_turn"
+			],
+			[
+				"st",
+				"string"
+			],
+			[
+				"x",
+				"x_ptr"
+			],
+			[
+				"d",
+				"double"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"print",
+				"printf\tprintf …"
+			],
+			[
+				"int",
+				"integers"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "App.test.js",
+			"settings":
+			{
+				"buffer_size": 248,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "App.js",
+			"settings":
+			{
+				"buffer_size": 235,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.css",
+			"settings":
+			{
+				"buffer_size": 380,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "App.css",
+			"settings":
+			{
+				"buffer_size": 32,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nProject Specific Syntax Settings\n--------------------------------\n\n  Project Specific Syntax Settings\n  ================================\n  \n  This package allows syntax settings to be specified per project.\n  \n  In your `.sublime-project` file, you just need to add a `syntax_override` section, like so.\n  \n  ```json\n  {\n      ...\n  \n      \"syntax_override\": {\n          \"\\\\.html$\": [\"HTML Underscore Syntax\", \"HTML (Underscore)\"]\n      }\n  }\n  ```\n  \n  The `syntax_override` section can contain as many key/value pairs as you like.\n  \n  The easiest way to construct these key/value pairs is to open an existing file in your project, set the syntax you would like to use for that file with the `View > Syntax > ...` menus (or the command palette), right click in the file editor area, and select the `Project Specific Syntax > Copy syntax setting to clipboard` menu item. This menu item is also available via the command palette. Once copied to the clipboard, simply open your project file and paste the new key/value pair into the `syntax_override` section. Be sure to add any necessary commas to separate multiple key/value pairs so your project file is still valid JSON.\n  \n  If you need more control, you can construct your own key/value pairs. The key should be a regular expression that will be matched against the name of the file. Note that the `.` in `.html` has to be escaped to `\\.` since it will match any character otherwise. And since this is a JSON string, we need to escape the slash, so we end up with `\\\\.`.\n  \n  The value in the key/value pair should be an array containing two or more strings. All but the last string in this array are the names of the package directories containing the syntax file and the last is the name of the syntax. Root around in Sublime Text's directory structure to find files that end with `.tmLanguage`. The names of these files (minus the `.tmLanguage` extension) are what you would use for the last string. Typically, you will only have two strings, a directory name and the syntax file name (minus `.tmLanguage` file extension), but this is dependent on the package's directory structure.\n",
+			"settings":
+			{
+				"buffer_size": 2192,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"theme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"A File Icon: Settings"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"color the",
+				"UI: Select Color Scheme"
+			],
+			[
+				"package control",
+				"Package Control: Install Package"
+			],
+			[
+				"instal pa",
+				"Install Package Control"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/tonyliang/Desktop/self-learning/react/react-complete-guide",
+		"/Users/tonyliang/Desktop/self-learning/react/react-complete-guide/src"
+	],
+	"file_history":
+	[
+		"/Users/tonyliang/Desktop/self-learning/react/gitbook/contents/baseFeatures.md",
+		"/Users/tonyliang/Desktop/self-learning/react/gitbook/contents/images/buildWorkFlow.png",
+		"/Users/tonyliang/Desktop/self-learning/react/gitbook/contents/BaseFeatures",
+		"/Users/tonyliang/Desktop/self-learning/react/SUMMARY.md",
+		"/Users/tonyliang/Desktop/Projects/Collaborative-Code-Judger/executor/executor_server.py",
+		"/Users/tonyliang/Desktop/Projects/Collaborative-Code-Judger/executor/executor_utils.py",
+		"/Users/tonyliang/Desktop/Projects/cherish-uganda-master/sheetToForm.gs",
+		"/Users/tonyliang/Desktop/SJSU/大三/Fall2018/math161/GitbookNotes/SUMMARY.md",
+		"/Users/tonyliang/Desktop/SJSU/大三/Fall2018/cs47/assignments/PA07/printf_extension.asm",
+		"/Users/tonyliang/Desktop/SJSU/大三/Fall2018/cs47/assignments/PA07/Exp17/cs47_macro.asm",
+		"/Users/tonyliang/Downloads/Exp17 2/Exp17.asm",
+		"/Users/tonyliang/Desktop/Projects/Collaborative-Code-Judger/oj-client/src/app/services/collaboration.service.ts",
+		"/Users/tonyliang/Desktop/Projects/Collaborative-Code-Judger/oj-client/src/app/components/editor/editor.component.ts",
+		"/Users/tonyliang/Desktop/Projects/Collaborative-Code-Judger/oj-server/modules/redisClient.js",
+		"/Users/tonyliang/Desktop/Projects/Collaborative-Code-Judger/oj-server/services/editorSocketService.js",
+		"/Users/tonyliang/Desktop/Projects/Collaborative-Code-Judger/oj-client/src/app/components/navbar/navbar.component.ts",
+		"/Users/tonyliang/Desktop/Projects/Collaborative-Code-Judger/oj-client/src/app/components/navbar/navbar.component.html",
+		"/Users/tonyliang/Desktop/Projects/Collaborative-Code-Judger/oj-client/angular.json",
+		"/Users/tonyliang/.GreenVPN/gfwlist.js",
+		"/Users/tonyliang/package-lock.json",
+		"/Users/tonyliang/Desktop/SJSU/大三/Fall2018/math161/GitbookNotes/_book/gitbook/gitbook.js",
+		"/Users/tonyliang/Desktop/SJSU/大三/Fall2018/math161/SUMMARY.md",
+		"/Users/tonyliang/Downloads/Exp17/Exp17.asm",
+		"/Users/tonyliang/Downloads/Exp17/cs47_macro.asm",
+		"/Users/tonyliang/Downloads/Factorial_Iterative.asm",
+		"/Users/tonyliang/Desktop/LiangProject1/README",
+		"/Users/tonyliang/Desktop/SJSU/Spring2018/CS49Java/HW/HW7/7A/InputProcessing.java",
+		"/Users/tonyliang/Library/PlayOnMac/wineprefix/Steam/drive_c/Program Files/Steam/config/config.vdf",
+		"/Users/tonyliang/Desktop/SJSU/Fall2018/cs47/assignments/smallproject1/cs47_macro.asm",
+		"/Users/tonyliang/Desktop/self-learning/how to use git-hub  /story/create-your-own-adventure/english/find-exit/leave.md",
+		"/Users/tonyliang/Downloads/Arrays,-Java-inbuilt-Lists,-Autoboxing-and-Unboxing-LinkedList-Part-3-Source-code/src/com/timbuchalka/Demo.java",
+		"/Users/tonyliang/Desktop/09_Selector_Exercise_Starter/selectors.css",
+		"/Users/tonyliang/Desktop/09_Selector_Exercise_Starter/selectorsExercise.html",
+		"/Users/tonyliang/Desktop/self-learning/CSS&HTML&Java script/app.css",
+		"/Users/tonyliang/Desktop/self-learning/CSS&HTML&Java script/07_Selectors/specify.html",
+		"/Users/tonyliang/Desktop/self-learning/CSS&HTML&Java script/07_Selectors/app.css",
+		"/Users/tonyliang/Desktop/self-learning/CSS&HTML&Java script/07_Selectors/demo.html",
+		"/Users/tonyliang/Desktop/self-learning/CSS&HTML&Java script/07_Selectors/selectors.css",
+		"/Users/tonyliang/Desktop/self-learning/CSS&HTML&Java script/aboutMe.html",
+		"/Users/tonyliang/Desktop/self-learning/CSS&HTML&Java script/demo2.html",
+		"/Users/tonyliang/Desktop/HTML/Registration.html",
+		"/Users/tonyliang/Desktop/iput.html",
+		"/Users/tonyliang/Desktop/firstPage.html",
+		"/Users/tonyliang/Downloads/rusty.html",
+		"/Users/tonyliang/Desktop/demo.html",
+		"/Users/tonyliang/Desktop/Wooster/Sophomore 1st/cs120/Labs/CS120Lab9JunzheLiang/CS120Lab9JunzheLiang/search.cpp",
+		"/Users/tonyliang/Desktop/index.html",
+		"/Users/tonyliang/anaconda2/Chengname.py",
+		"/Users/tonyliang/Desktop/project.py",
+		"/Users/tonyliang/Desktop/CS120-FinalProject-JemalJemal-NicolasHunter-JunzheLiang/driver.cpp",
+		"/Users/tonyliang/Desktop/CS120-Final-Project-master-5/driver.cpp",
+		"/Users/tonyliang/Desktop/test2.txt",
+		"/Users/tonyliang/Desktop/test1.txt",
+		"/Users/tonyliang/Desktop/command_line_history.txt",
+		"/Users/tonyliang/Downloads/CS120Lab11JunzheLiang-2/main.cpp",
+		"/Users/tonyliang/Desktop/Projects/pizza/pizza/pizza.h",
+		"/Users/tonyliang/Downloads/CS120PostLab5JunzheLiang/ListArray.h",
+		"/Users/tonyliang/Desktop/classworknine.py",
+		"/Users/tonyliang/Desktop/Cheng Cheng_13349_assignsubmission_file__newclasswork7.py",
+		"/Users/tonyliang/Desktop/Wooster/Sophomore 1st/cs120/Labs/CS120Lab8JunzheLiang/CS120PostLab8JunzheLiang/delimiters.cpp",
+		"/Users/tonyliang/Desktop/Lab8/delimiters.cs",
+		"/Users/tonyliang/Desktop/ListLinked.h",
+		"/Users/tonyliang/Desktop/IC3 Submissions-2/Darian Harvey_6322_assignsubmission_file_/media.py",
+		"/Users/tonyliang/Downloads/Stacks/INFIXtoPostFIX/main.cpp",
+		"/Users/tonyliang/Downloads/Stacks/INFIXtoPostFIX/DStack.h",
+		"/Users/tonyliang/Desktop/IC3 Submissions-2/IC3.py",
+		"/Users/tonyliang/Desktop/IC3 Submissions-2/Alexis Portner_6318_assignsubmission_file_/classwork.py",
+		"/Users/tonyliang/Desktop/IC3 Submissions-2/Andrey Borodin_6312_assignsubmission_file_/Classwork 3.py",
+		"/Users/tonyliang/Desktop/IC3 Submissions-2/Anh Dam_6297_assignsubmission_file_/classwork3.py",
+		"/Users/tonyliang/Desktop/IC3 Submissions-2/Ava Chamberlain_6317_assignsubmission_file_/Classwork3.py",
+		"/Users/tonyliang/Desktop/IC3 Submissions-2/Cheng Cheng_6316_assignsubmission_file_/classworkiii.py",
+		"/Users/tonyliang/Library/Developer/Xcode/DerivedData/CS120Lab6JunzheLiang-haciwzqwggoqgzfpaxlptgdhxxuh/Build/Products/Debug/TONYsTest.dat",
+		"/Users/tonyliang/Library/Developer/Xcode/DerivedData/CS120Lab6JunzheLiang-haciwzqwggoqgzfpaxlptgdhxxuh/Build/Products/Debug/TONYsTest",
+		"/Users/tonyliang/Library/Developer/Xcode/DerivedData/CS120Lab6JunzheLiang-haciwzqwggoqgzfpaxlptgdhxxuh/Build/Products/Debug/message.dat",
+		"/Users/tonyliang/Library/Developer/Xcode/DerivedData/CS120Lab6JunzheLiang-haciwzqwggoqgzfpaxlptgdhxxuh/Build/Products/Debug/msg.dat",
+		"/Users/tonyliang/Desktop/Lab6/message.dat",
+		"/Users/tonyliang/Desktop/Lab6/packet.cs",
+		"/Users/tonyliang/Desktop/Lab5/CS120Lab5JunzheLiang/CS120Lab5JunzheLiang/ListArray.cpp",
+		"/Applications/Unity/Documentation/en/Manual/docdata/index.js",
+		"/Users/tonyliang/Downloads/IC3 Submissions/Noah Clement_6298_assignsubmission_file_/Classwork3.py",
+		"/Users/tonyliang/Desktop/IC3.py",
+		"/Users/tonyliang/Downloads/IC3 Submissions/Nicholas Debussey_6329_assignsubmission_file_/nickdebusseyfil.py",
+		"/Users/tonyliang/Downloads/IC3 Submissions/Nia Johnson_6308_assignsubmission_file_/DrawingPictures.py",
+		"/Users/tonyliang/Downloads/IC3 Submissions/Nathan Devereux_6306_assignsubmission_file_/classwork 3.py",
+		"/Users/tonyliang/Downloads/IC3 Submissions/Shivam K C_6328_assignsubmission_file_/file2.py",
+		"/Users/tonyliang/Downloads/IC3 Submissions/Nyla Zak_6313_assignsubmission_file_/Drawing Pictures Activity.py",
+		"/Users/tonyliang/Downloads/IC3 Submissions/Sadie Phillips_6307_assignsubmission_file_/classworkthree.py",
+		"/Users/tonyliang/Downloads/IC3 Submissions/Shresth Sehra_6319_assignsubmission_file_/wed9_13.py",
+		"/Users/tonyliang/Downloads/IC3 Submissions/Zhen Guo_6301_assignsubmission_file_/Zhen913classwork.py",
+		"/Users/tonyliang/Desktop/@.txt",
+		"/Users/tonyliang/Desktop/Wooster/Sophomore 1st/CS279/untitled folder/Chef and Digit Jumps(Queue).cpp",
+		"/Users/tonyliang/Desktop/Wooster/Sophomore 1st/CS279/Chef and Digit Jumps(Queue)",
+		"/Users/tonyliang/Desktop/Wooster/Sophomore 1st/cs120/Labs/Lab3 2/CS120Lab3JunzheLiang/TextADT/Text.cpp",
+		"/Users/tonyliang/Downloads/SimpleCircle with Operators/Class Design/SimpleCircle2.cpp",
+		"/Users/tonyliang/Desktop/Exercise4JunzheLiang/Rectangle.h",
+		"/Users/tonyliang/Desktop/Exercise4JunzheLiang/Rectangle.cpp",
+		"/Users/tonyliang/Downloads/SimpleCircle with Operators/Class Design/SimpleCircle.h",
+		"/Users/tonyliang/Desktop/Wooster/Sophomore 1st/cs120/Labs/Lab3 2/CS120Lab3JunzheLiang/TextADT/Text.h",
+		"/Users/tonyliang/Downloads/Chapter04/Listing4-2.cpp",
+		"/Users/tonyliang/Downloads/Chapter04/Listing4-1.h",
+		"/Users/tonyliang/Desktop/E4",
+		"/Users/tonyliang/Desktop/Wooster/Sophomore 1st/cs120/Labs/Lab3 2/CS120Lab3JunzheLiang/TextADT/test1.cpp",
+		"/Users/tonyliang/Downloads/Chapter04/Listing4-4.cpp",
+		"/Users/tonyliang/Downloads/Chapter02/Section2.6/getNumberOfGroups.cpp",
+		"/Users/tonyliang/Desktop/Wooster/Sophomore 1st/Grading 102/CSCI-10200-01-1718FA-Classwork 2-11533/Borodin Andrey_4768_assignsubmission_file_/Classwork 2 .py",
+		"/Users/tonyliang/Desktop/IC2.py",
+		"/Users/tonyliang/Desktop/Wooster/Sophomore 1st/CS279/tweets/tweets.cpp",
+		"/Users/tonyliang/Desktop/Wooster/Sophomore 1st/CS279/tweets/test",
+		"/Users/tonyliang/Desktop/Wooster/Sophomore 1st/CS279/FizzBuzz/FizzBuzz.cpp",
+		"/Users/tonyliang/Desktop/Wooster/Sophomore 1st/CS279/FizzBuzz/untitled",
+		"/Users/tonyliang/Desktop/Wooster/Sophomore 1st/CS279/From Heaven To Earth/elevator.cpp",
+		"/Users/tonyliang/Desktop/Wooster/Sophomore 1st/CS279/From Heaven To Earth/input.txt",
+		"/Users/tonyliang/Desktop/Wooster/Sophomore 1st/CS279/examples/struct/struct.cpp",
+		"/Users/tonyliang/Desktop/Wooster/Sophomore 1st/CS279/FizzBuzz/a.cpp",
+		"/Users/tonyliang/Desktop/Wooster/Sophomore 1st/CS279/examples/vector/vector.cpp",
+		"/Users/tonyliang/Desktop/Wooster/Sophomore 1st/CS279/FizzBuzz.cpp",
+		"/Users/tonyliang/Desktop/Wooster/Sophomore 1st/CS279/examples/struct/input_1.txt",
+		"/Users/tonyliang/Desktop/Wooster/Sophomore 1st/CS279/FizzBuzz",
+		"/Users/tonyliang/Desktop/a.cpp",
+		"/Users/tonyliang/Desktop/a.c",
+		"/Users/tonyliang/Desktop/Wooster/Sophomore 1st/ACM/vector.cpp",
+		"/Users/tonyliang/Desktop/Wooster/Sophomore 1st/ACM/#include <iostream>",
+		"/Users/tonyliang/Desktop/untitled",
+		"/Users/tonyliang/Downloads/Definitions.tex",
+		"/Users/tonyliang/Desktop/Wooster/Sophomore 1st/cs120/CS120Lab1JunzheLiang/Lab1.cpp",
+		"/Users/tonyliang/Desktop/Wooster/Sophomore 1st/cs120/CS120Lab1JunzheLiang/Lab1",
+		"/Users/tonyliang/Desktop/Projects/BasketballTrainer/Trainer.xcodeproj/project.xcworkspace/xcuserdata/tonyliang.xcuserdatad/UserInterfaceState.xcuserstate",
+		"/Users/tonyliang/Desktop/Projects/BasketballTrainer/Basketball"
+	],
+	"find":
+	{
+		"height": 49.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "App.test.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 248,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"markdonw_live_preview_last_run": 1540232242.38,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "App.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 235,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								71,
+								71
+							]
+						],
+						"settings":
+						{
+							"markdonw_live_preview_last_run": 1540238146.03,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.css",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 380,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"markdonw_live_preview_last_run": 1540238374.84,
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "App.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 32,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32,
+								32
+							]
+						],
+						"settings":
+						{
+							"markdonw_live_preview_last_run": 1540238040.17,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2192,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2192,
+								2192
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 49.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "reactLearning.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 223.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
