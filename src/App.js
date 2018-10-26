@@ -4,9 +4,9 @@ import Person from './Person/Person';
 class App extends Component {
 	state = {
 		persons: [
-			{key: "qsxz1", name: "Max", age: "28"},
-			{key: "asdf1",name: "Mamu", age: "26"},
-			{key: "cvzdfd",name: "Stephanie", age: "24"},
+			{id: "qsxz1", name: "Max", age: "28"},
+			{id: "asdf1",name: "Mamu", age: "26"},
+			{id: "cvzdfd",name: "Stephanie", age: "24"},
 		],
 		showPersons: false
 
@@ -21,13 +21,22 @@ class App extends Component {
 
 	}
 
-	changeEventHandler = (event) => {
+	changeEventHandler = (event, id) => {
+		const personIndex = this.state.persons.findIndex(person => {
+			return person.id === id;
+		})
+
+		const person = {
+			...this.state.persons[personIndex]
+		};
+
+		person.name = event.target.value;
+
+		const persons = [...this.state.persons];
+
+		persons[personIndex] = person;
 		this.setState({
-			persons: [
-				{name: "Max", age: "28"},
-				{name: event.target.value, age: "26"},
-				{name: "Stephanie", age: "40"},
-			]
+			persons: persons
 		})
 	}
 
@@ -40,10 +49,8 @@ class App extends Component {
 
 
 	render() {
-
-
 		const style = {
-			backgroudColor: 'white',
+			backgroudColor: 'black',
 			font: 'inherit',
 			border: '1x solid blue',
 			padding: '8px',
@@ -60,7 +67,8 @@ class App extends Component {
 						click = {() => this.deletePersonHandler(index)}
 						name = {person.name}
 						age = {person.age}
-						key = {person.key} />
+						key = {person.id} 
+						changed = {(event) => this.changeEventHandler(event, person.id)}/>
 				})}
 	        	</div>  
 			)
