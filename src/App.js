@@ -16,7 +16,7 @@ class App extends Component {
 	deletePersonHandler = (personIndex) => {
 		//const persons = this.state.persons.slice();
 		const persons = [...this.state.persons];
-		persons.splice(personIndex, 1); // delete the item at index 1
+		persons.splice(personIndex, 1); // delete the item at index personInde
 		this.setState({persons: persons});
 
 	}
@@ -50,7 +50,8 @@ class App extends Component {
 
 	render() {
 		const style = {
-			backgroudColor: 'black',
+			backgroundColor: 'green',
+			color: 'white',
 			font: 'inherit',
 			border: '1x solid blue',
 			padding: '8px',
@@ -72,11 +73,23 @@ class App extends Component {
 				})}
 	        	</div>  
 			)
+
+			style.backgroundColor = 'red';
 		}
 
+		const classes = [];
+		if (this.state.persons.length <= 2) {
+			classes.push('red'); 
+		}
+
+		if (this.state.persons.length <= 1) {
+			classes.push('bold'); 
+		}
+		
 	    return (
 	      <div className="App">
 	        <h1> Hi, I' am a React App </h1>
+	        <p className = {classes.join(' ')}> this is really working! </p>
 	        <button
 	        	style = {style} 
 	        	onClick = {this.togglePersonsHandler}> 
