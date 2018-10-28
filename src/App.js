@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './App.css';
+import classes from './App.module.css';
 import Person from './Person/Person';
-import Radium, { StyleRoot } from 'radium';
+
 class App extends Component {
 	state = {
 		persons: [
@@ -57,10 +57,6 @@ class App extends Component {
 			border: '1x solid blue',
 			padding: '8px',
 			cursor: 'pointer',
-			':hover': {
-				backgroundColor: 'lightgreen',
-				color: 'black'
-			}
 		};
 
 		let persons = null;
@@ -80,26 +76,22 @@ class App extends Component {
 			)
 
 			style.backgroundColor = 'red';
-			style[':hover'] = {
-				backgroundColor: 'salmon',
-				color: 'white'
-			}
 		}
 
-		const classes = [];
+		const assignedClasses = [];
 		if (this.state.persons.length <= 2) {
-			classes.push('red'); 
+			assignedClasses.push(classes.red); 
 		}
 
 		if (this.state.persons.length <= 1) {
-			classes.push('bold'); 
+			assignedClasses.push(classes.bold); 
 		}
 		
 	    return (
-		<StyleRoot>
-			<div className="App">
+		
+			<div className = {classes.App}>
 				<h1> Hi, I' am a React App </h1>
-				<p className = {classes.join(' ')}> this is really working! </p>
+				<p className = {assignedClasses.join(' ')}> this is really working! </p>
 				<button
 					style = {style} 
 					onClick = {this.togglePersonsHandler}> 
@@ -107,11 +99,11 @@ class App extends Component {
 				</button>
 				{persons}
 			</div> 
-		</StyleRoot>
+		
 	    );
 	    //return React.createElement('div', {className: 'App'}, React.createElement('h1', null, 'Hi, I\' am a React App'));
 	}
 }
 
-export default Radium(App);
+export default App;
 
