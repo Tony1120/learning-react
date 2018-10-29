@@ -1,70 +1,67 @@
 import React, { Component } from 'react';
 import classes from './App.module.css';
-import Person from './Person/Person';
+import PersonList from '../components/PersonList/PersonList';
+
 
 class App extends Component {
 	state = {
-		persons: [
+		personList: [
 			{id: "qsxz1", name: "Max", age: "28"},
 			{id: "asdf1",name: "Mamu", age: "26"},
 			{id: "cvzdfd",name: "Stephanie", age: "24"},
 		],
-		showPersons: false
+		showpersonList: false
 
 	};
 
 
 	deletePersonHandler = (personIndex) => {
-		//const persons = this.state.persons.slice();
-		const persons = [...this.state.persons];
-		persons.splice(personIndex, 1); // delete the item at index personInde
-		this.setState({persons: persons});
+		//const personList = this.state.personList.slice();
+		const personList = [...this.state.personList];
+		personList.splice(personIndex, 1); // delete the item at index personInde
+		this.setState({personList: personList});
 
 	}
 
 	changeEventHandler = (event, id) => {
-		const personIndex = this.state.persons.findIndex(person => {
+		const personIndex = this.state.personList.findIndex(person => {
 			return person.id === id;
 		})
 
 		const person = {
-			...this.state.persons[personIndex]
+			...this.state.personList[personIndex]
 		};
 
 		person.name = event.target.value;
 
-		const persons = [...this.state.persons];
+		const personList = [...this.state.personList];
 
-		persons[personIndex] = person;
+		personList[personIndex] = person;
 		this.setState({
-			persons: persons
+			personList: personList
 		})
 	}
 
-	togglePersonsHandler = () => { 
+	togglepersonListHandler = () => { 
 		console.log("clicked")
-		console.log(this.showPersons)
-		const doesShow = this.state.showPersons;
-		this.setState({showPersons: !doesShow})
+		console.log(this.showpersonList)
+		const doesShow = this.state.showpersonList;
+		this.setState({showpersonList: !doesShow})
 	}
 
 
 	render() {
 
 
-		let persons = null;
+		let personList = null;
 		let btnClass = '';
-		if (this.state.showPersons) {
-			persons = (
+		if (this.state.showpersonList) {
+			personList = (
 				<div> 
-				{this.state.persons.map((person, index)  => {
-					return <Person 
-						click = {() => this.deletePersonHandler(index)}
-						name = {person.name}
-						age = {person.age}
-						key = {person.id} 
-						changed = {(event) => this.changeEventHandler(event, person.id)}/>
-				})}
+					<PersonList 
+						personList = {this.state.personList} 
+						clicked = {this.deletePersonHandler}
+						changed = {this.changeEventHandler}/>
 	        	</div>  
 			)
 			btnClass = classes.red;
@@ -72,11 +69,11 @@ class App extends Component {
 		}
 
 		const assignedClasses = [];
-		if (this.state.persons.length <= 2) {
+		if (this.state.personList.length <= 2) {
 			assignedClasses.push(classes.red); 
 		}
 
-		if (this.state.persons.length <= 1) {
+		if (this.state.personList.length <= 1) {
 			assignedClasses.push(classes.bold); 
 		}
 		
@@ -87,10 +84,10 @@ class App extends Component {
 				<p className = {assignedClasses.join(' ')}> this is really working! </p>
 				<button
  					className = {btnClass}
-					onClick = {this.togglePersonsHandler}> 
+					onClick = {this.togglepersonListHandler}> 
 					swich 
 				</button>
-				{persons}
+				{personList}
 			</div> 
 		
 	    );
