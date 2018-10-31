@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import classes from './Person.module.css';
 
 class Person extends Component {
-		constructor(props) {
+	constructor(props) {
 		super(props);
 		console.log('[Person.js] inside constructor', props)
 
