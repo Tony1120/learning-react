@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import classes from './App.module.css';
 import PersonList from '../components/PersonList/PersonList';
 import Cockpit from '../components/Cockpit/Cockpit'
 
-class App extends Component {
+class App extends PureComponent {
 	constructor(props) {
 		super(props);
 		console.log('[APP.js] inside constructor', props)
@@ -25,12 +25,12 @@ class App extends Component {
 		console.log('[APP.js] inside ComponentDidMount');
 	}
 
-	shouldComponentUpdate ( nextProps, nextState ) {
-        console.log( '[UPDATE App.js] Inside shouldComponentUpdate', nextProps, nextState );
+	// shouldComponentUpdate ( nextProps, nextState ) {
+ //        console.log( '[UPDATE App.js] Inside shouldComponentUpdate', nextProps, nextState );
         
-        return nextState.personList !== this.state.personList || nextState.showPersonList !== this.state.showPersonList ; 
-        //return true;
-    }
+ //        return nextState.personList !== this.state.personList || nextState.showPersonList !== this.state.showPersonList ; 
+ //        //return true;
+ //    }
 
     componentWillUpdate ( nextProps, nextState ) {
         console.log( '[UPDATE App.js] Inside componentWillUpdate', nextProps, nextState );
