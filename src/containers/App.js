@@ -4,15 +4,27 @@ import PersonList from '../components/PersonList/PersonList';
 import Cockpit from '../components/Cockpit/Cockpit'
 
 class App extends Component {
-	state = {
-		personList: [
-			{id: "qsxz1", name: "Max", age: "28"},
-			{id: "asdf1",name: "Mamu", age: "26"},
-			{id: "cvzdfd",name: "Stephanie", age: "24"},
-		],
-		showpersonList: false
+	constructor(props) {
+		super(props);
+		console.log('[APP.js] inside constructor', props)
+		this.state = {
+			personList: [
+				{id: "qsxz1", name: "Max", age: "28"},
+				{id: "asdf1",name: "Mamu", age: "26"},
+				{id: "cvzdfd",name: "Stephanie", age: "24"},
+			],
+			showpersonList: false
+		};
+	}
 
-	};
+	componentWillMount() {
+		console.log('[APP.js] inside componentWillMount');
+	}
+
+	componentDidMount() {
+		console.log('[APP.js] inside ComponentDidMount');
+	}
+
 
 
 	deletePersonHandler = (personIndex) => {
@@ -52,7 +64,7 @@ class App extends Component {
 
 	render() {
 
-
+		console.log('[APP.js] inside render');
 		let personList = null;
 		
 		if (this.state.showpersonList) {
