@@ -13,7 +13,7 @@ class App extends Component {
 				{id: "asdf1",name: "Mamu", age: "26"},
 				{id: "cvzdfd",name: "Stephanie", age: "24"},
 			],
-			showpersonList: false
+			showPersonList: false
 		};
 	}
 
@@ -27,8 +27,9 @@ class App extends Component {
 
 	shouldComponentUpdate ( nextProps, nextState ) {
         console.log( '[UPDATE App.js] Inside shouldComponentUpdate', nextProps, nextState );
-        //return nextProps.persons !== this.props.persons;
-        return true; 
+        
+        return nextState.personList !== this.state.personList || nextState.showPersonList !== this.state.showPersonList ; 
+        //return true;
     }
 
     componentWillUpdate ( nextProps, nextState ) {
@@ -70,9 +71,9 @@ class App extends Component {
 
 	togglepersonListHandler = () => { 
 		console.log("clicked")
-		console.log(this.showpersonList)
-		const doesShow = this.state.showpersonList;
-		this.setState({showpersonList: !doesShow})
+		console.log(this.state.showPersonList)
+		const doesShow = this.state.showPersonList;
+		this.setState({showPersonList: !doesShow})
 	}
 
 
@@ -81,7 +82,7 @@ class App extends Component {
 		console.log('[APP.js] inside render');
 		let personList = null;
 		
-		if (this.state.showpersonList) {
+		if (this.state.showPersonList) {
 			personList = (
 				<div> 
 					<PersonList 
@@ -97,9 +98,10 @@ class App extends Component {
 		
 	    return (
 			<div className = {classes.App}>
+				<button onClick = {() => {this.setState({showPersonList: true})}}> Show Persons </button>
 				<Cockpit
 					title = {this.props.title}
-					showpersonList = {this.state.showpersonList}
+					showPersonList = {this.state.showPersonList}
 					personList = {this.state.personList}
 					clicked = {this.togglepersonListHandler}/>
 				{personList}

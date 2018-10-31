@@ -2,7 +2,7 @@ import React from 'react'
 import classes from './Cockpit.module.css'
 const cockpit = (props) => {
 	let btnClass = '';
-	if (props.showpersonList) {
+	if (props.showPersonList) {
 		btnClass = classes.red;
 	}
 
