@@ -11,9 +11,9 @@ class App extends PureComponent {
 		console.log('[APP.js] inside constructor', props)
 		this.state = {
 			personList: [
-				{id: "qsxz1", name: "Max", age: "28"},
-				{id: "asdf1",name: "Mamu", age: "26"},
-				{id: "cvzdfd",name: "Stephanie", age: "24"},
+				{id: "qsxz1", name: "Max", age: 28},
+				{id: "asdf1",name: "Mamu", age: 26},
+				{id: "cvzdfd",name: "Stephanie", age: 24},
 			],
 			showPersonList: false,
 			toggleClicked: 0
