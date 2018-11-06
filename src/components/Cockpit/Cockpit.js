@@ -25,6 +25,7 @@ const cockpit = (props) => {
 				onClick = {props.clicked}> 
 				swich 
 			</button>
+			<button onClick = {props.login}> Log in </button>
 		</Aux>
 	)
 
