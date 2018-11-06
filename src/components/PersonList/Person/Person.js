@@ -6,9 +6,10 @@ import Aux from '../../../hoc/Aux';
 import withClass from '../../../hoc/withClass';
 class Person extends Component {
 	constructor(props) {
+
 		super(props);
 		console.log('[Person.js] inside constructor', props)
-
+		this.inputElement = React.createRef();
 	}
 
 	componentWillMount() {
@@ -17,9 +18,13 @@ class Person extends Component {
 
 	componentDidMount() {
 		console.log('[Person.js] inside ComponentDidMount');
-		if (this.props.position === 1) {
-			this.inputElement.focus();
+		  if (this.props.position ===  1) {
+			this.inputElement.current.focus();
 		}
+	}
+
+	focusInput() {
+		this.inputElement.current.focus();
 	}
 
 	render() {
@@ -28,7 +33,7 @@ class Person extends Component {
 			<p onClick = {this.props.click} > I'm a {this.props.name} and I am {this.props.age} years old</p>	
 			<p> {this.props.children}</p>
 			<input 
-				ref = {(inp) => {this.inputElement = inp}}
+				ref = {this.inputElement}
 				type = "text" 
 				onChange = {this.props.changed} 
 				value = {this.props.name}/> 
